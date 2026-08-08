@@ -1,0 +1,41 @@
+<section class="castle-waitlist">
+
+    <div class="castle-waitlist__form">
+
+        <div class="castle-waitlist__field">
+            <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                aria-label="Your Name"
+            >
+        </div>
+
+        <div class="castle-waitlist__field">
+            <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                aria-label="Email"
+            >
+        </div>
+
+        <button type="button" class="castle-waitlist__button">
+            Join Waitlist!
+        </button>
+
+    </div>
+
+</section>
+
+{% schema %}
+{
+    "name": "Castle Waitlist",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Castle Waitlist"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,57 @@
+<section class="castle-hero">
+
+    <div class="castle-container">
+
+        <header class="castle-header">
+
+            <a href="{{ routes.root_url }}" class="castle-logo">
+                <img
+                    src="{{ 'Logo.svg' | asset_url }}"
+                    alt="Castle"
+                    width="47"
+                    height="31"
+                >
+            </a>
+
+            <nav class="castle-nav">
+                <a href="#">Blog</a>
+                <a href="#">Get Started </a>
+            </nav>
+
+        </header>
+
+        <div class="castle-hero__content">
+
+            <h1 class="castle-hero__title">
+                Join the <span>EVOLUTION!</span>
+            </h1>
+
+            <h2 class="castle-hero__subtitle">
+                CASTLE is coming soon!
+            </h2>
+
+            <p class="castle-hero__text">
+                Let us introduce you to a hassle-free means of securing affordable apartment
+                across the country. We offer exclusive services that gives you a less exorbitant
+                housing plans.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% schema %}
+{
+    "name": "Castle Hero",
+    "tag": "section",
+    "class": "section-castle-hero",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Castle Hero"
+        }
+    ]
+}
+{% endschema %}

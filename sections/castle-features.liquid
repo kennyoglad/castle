@@ -1,0 +1,87 @@
+<section class="castle-features">
+
+    <div class="castle-features__container">
+
+        <div class="castle-features__grid">
+
+            <!-- RENT AND EARN -->
+            <div class="castle-feature castle-feature--rent">
+
+                <div class="castle-feature__content">
+
+                    <h3 class="castle-feature__title">
+                        RENT AND EARN
+                    </h3>
+
+                    <p class="castle-feature__description">
+                        With Castle, we have introduced a smart way to rent and earn.
+                    </p>
+
+                    <div class="castle-feature__image castle-feature__image--rent">
+
+                        <img
+                            src="{{ 'rent.png' | asset_url }}"
+                            alt="Rent and Earn"
+                            width="294"
+                            height="176"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- OUR MOBILE APP -->
+            <div class="castle-feature castle-feature--app">
+
+                <div class="castle-feature__content">
+
+                    <h3 class="castle-feature__title">
+                        OUR MOBILE APP
+                    </h3>
+
+                    <div class="castle-feature__image castle-feature__image--app">
+
+                        <img
+                            src="{{ 'phone.png' | asset_url }}"
+                            alt="Castle Mobile App"
+                            class="castle-feature__phone"
+                            width="308"
+                            height="209"
+                        >
+
+                        <img
+                            src="{{ 'App.png' | asset_url }}"
+                            alt="Available on Google Play and App Store"
+                            class="castle-feature__app-badges"
+                        >
+
+                    </div>
+
+                    <p class="castle-feature__description">
+                        Castle Mobile will be available for download on the Apple Store as well as the Google Play Store.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+{% schema %}
+{
+    "name": "Castle Features",
+    "settings": [],
+    "presets": [
+        {
+            "name": "Castle Features"
+        }
+    ]
+}
+{% endschema %}
