@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "castle-hero": {
+      "type": "castle-hero"
+    },
+
+    "castle-navigator": {
+      "type": "castle-navigator"
+    },
+
+    "castle-waitlist": {
+      "type": "castle-waitlist"
+    },
+
+    "castle-features": {
+      "type": "castle-features"
+    }
+
+  },
+
+  "order": [
+    "castle-hero",
+    "castle-navigator",
+    "castle-waitlist",
+    "castle-features"
+  ]
+}
