@@ -1,0 +1,424 @@
+/* ==========================================
+   CASTLE THEME
+========================================== */
+
+
+/* ==========================================
+   GLOBAL
+========================================== */
+.castle-container{
+    width:100%;
+    max-width:1280px;
+    margin:0 auto;
+    padding:0 40px;
+}
+
+/* ===================================
+CASTLE HEADER
+=================================== */
+.castle-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:35px 0;
+}
+
+.castle-logo{
+    display:flex;
+    align-items:center;
+}
+
+.castle-logo img{
+    width:47px;
+    height:auto;
+}
+
+.castle-nav{
+    display:flex;
+    align-items:center;
+    gap:21px;
+}
+
+.castle-nav a{
+    text-decoration:none;
+    color:#000;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:16px;
+    font-weight:400;
+}
+
+.castle-nav__button{
+    padding:12px 28px;
+    background:#5B7D53;
+    color:#fff !important;
+    border-radius:6px;
+}
+
+
+
+/* ===================================
+   CASTLE HERO
+=================================== */
+.castle-hero{
+    position: relative;
+    overflow: hidden;
+    min-height:450px;
+    padding-bottom:55px;
+    background:linear-gradient(
+        181.99deg,
+        rgba(140,165,139,.09) 24.64%,
+        rgba(35,198,29,.03) 79.17%
+    );
+
+}
+
+.castle-hero__content{
+    margin:70px auto 0;
+    width:100%;
+    max-width:912px;
+    text-align:center;
+}
+
+.castle-hero__title{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:75px;
+    font-weight:400;
+    line-height:1;
+    margin:0;
+}
+
+.castle-hero__title span{
+    color:#5B7D53;
+    font-weight:700;
+}
+
+.castle-hero__subtitle{
+    font-size:75px;
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:400;
+    line-height:1;
+    margin-top:6px;
+}
+
+.castle-hero__text{
+    width:100%;
+    max-width:1028px;
+    margin:48px auto 0;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:25px;
+    font-weight:300;
+    line-height:1.45;
+    color:#555;
+    text-align:center;
+}
+
+/* ==========================================
+   CASTLE NAVIGATOR
+========================================== */
+
+.castle-navigator{
+    width:100%;
+    height:174px;
+    overflow:hidden;
+    position:relative;
+}
+
+.castle-navigator__image{
+    display:block;
+    width:100%;
+    height:174px;
+    object-fit:cover;
+    object-position:center;
+    opacity:.5;
+}
+
+
+/* ==========================================
+   CASTLE WAITLIST
+========================================== */
+
+.castle-waitlist{
+    width:100%;
+    margin-top:34px;
+}
+
+
+.castle-waitlist__form{
+    width:100%;
+    max-width:985px;
+    margin:0 auto;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+    gap:25px;
+}
+
+
+/* ==========================================
+   WAITLIST INPUTS
+========================================== */
+
+.castle-waitlist__field{
+    box-sizing:border-box;
+
+    width:281px;
+    height:50px;
+
+    display:flex;
+    align-items:center;
+
+    padding:20px 12px;
+
+    border:0.87px solid rgba(102,102,102,0.4);
+    border-radius:5px;
+
+    flex:none;
+}
+
+
+.castle-waitlist__field input{
+    width:100%;
+    height:30px;
+
+    padding:0;
+    margin:0;
+
+    border:0;
+    outline:none;
+    background:transparent;
+
+    font-family:'Poppins', sans-serif;
+    font-size:14px;
+    font-weight:300;
+    line-height:21px;
+
+    color:rgba(102,102,102,0.8);
+
+    text-align:center;
+}
+
+
+.castle-waitlist__field input::placeholder{
+    color:rgba(102,102,102,0.8);
+    opacity:1;
+}
+
+
+/* ==========================================
+   WAITLIST BUTTON
+========================================== */
+
+.castle-waitlist__button{
+    box-sizing:border-box;
+
+    width:368px;
+    height:50px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:20px 12px;
+
+    gap:10px;
+
+    border:0;
+    border-radius:10px;
+
+    background:#496848;
+    color:#fff;
+
+    font-family:'Space Grotesk', sans-serif;
+    font-size:15px;
+    font-weight:700;
+    line-height:19px;
+
+    text-align:center;
+
+    cursor:pointer;
+}
+
+/* ==========================================
+   CASTLE FEATURES
+========================================== */
+.castle-features{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.castle-features__container{
+    width:100%;
+    max-width:794px;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+
+.castle-features__grid{
+    width:100%;
+    max-width:758.67px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    gap:20.41px;
+}
+
+/* ==========================================
+   FEATURE CARD
+========================================== */
+.castle-feature{
+    box-sizing:border-box;
+    width:375.57px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:30.6173px 15.3087px;
+    background:rgba(81,113,80,0.03);
+    border-radius:10.2058px;
+    flex:none;
+}
+
+
+.castle-feature__content{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:25.51px;
+    text-align:center;
+}
+
+
+/* ==========================================
+   CARD HEIGHTS
+========================================== */
+.castle-feature--rent{
+    height:326.8px;
+}
+
+.castle-feature--app{
+    height:404.37px;
+    box-shadow:0 0 51.0289px rgba(0,0,0,0.01);
+}
+
+
+/* ==========================================
+   FEATURE TITLE
+========================================== */
+.castle-feature__title{
+    margin:0;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:15.3087px;
+    font-weight:700;
+    line-height:20px;
+    color:#222;
+    opacity:.9;
+    text-align:center;
+}
+
+
+/* ==========================================
+   FEATURE DESCRIPTION
+========================================== */
+.castle-feature__description{
+    width:100%;
+    max-width:352.1px;
+    margin:0;
+    font-family:'Space Grotesk',sans-serif;
+    font-size:14.2881px;
+    font-weight:300;
+    line-height:18px;
+    color:#222;
+    opacity:.9;
+    text-align:center;
+}
+
+
+/* ==========================================
+   FEATURE IMAGES - BASE
+========================================== */
+.castle-feature__image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:none;
+}
+
+/* ==========================================
+   RENT AND EARN IMAGE
+========================================== */
+.castle-feature__image--rent{
+    width:293.69px;
+    height:175.54px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+        180deg,
+        rgba(143,186,142,.1) 0%,
+        rgba(177,205,176,.1) 100%
+    );
+}
+
+.castle-feature__image--rent img{
+    display:block;
+    width:293.69px;
+    height:175.54px;
+    object-fit:contain;
+}
+
+/* ==========================================
+   MOBILE APP IMAGE AREA
+========================================== */
+.castle-feature__image--app{
+    width:308.21px;
+    height:209.22px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    background:linear-gradient(
+        180deg,
+        rgba(140,165,139,.0441) 0%,
+        rgba(140,165,139,0) 83.33%
+    );
+    border-radius:20.4116px;
+    overflow:hidden;
+}
+
+/* ==========================================
+   MOBILE PHONE
+========================================== */
+.castle-feature__phone{
+    display:block;
+    width:auto;
+    max-width:100%;
+    height:auto;
+    object-fit:contain;
+}
+
+/* ==========================================
+   APP STORE / GOOGLE PLAY BADGES
+========================================== */
+.castle-feature__app-badges{
+    display:block;
+    width:113.56px;
+    height:auto;
+    object-fit:contain;
+}
+
+/* ==========================================
+   CTA
+========================================== */
+
+.castle-cta{
+
+}
